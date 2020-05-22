@@ -9,7 +9,7 @@ database = 'localhost'
 connection = cx_Oracle.connect(username,password, database)
 cursor = connection.cursor()
 
-tables = ['Human','School','AlcoholCons','HumanSex','HumanHealth','HumanGuardian','SchoolTitle','AlcoholConsDalc','AlcoholConsWalc'] 
+tables = ['School','AlcoholCons','Human','HumanSex','HumanHealth','HumanGuardian','SchoolTitle','AlcoholConsDalc','AlcoholConsWalc'] 
 
 
 try:
